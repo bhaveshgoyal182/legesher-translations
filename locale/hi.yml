@@ -1248,113 +1248,113 @@ __TRAIT__: ""
 # |  LANGUAGE: PYTHON  |
 # ----------------------
 # << Keywords >>
-False: "असत्य" # ✅
-None: "कुछ नहीं" # ❓ My suggestion : "कुछ नहीं" This seems better in the context of none as a datatype
-True: "सत्य" # ❓ My suggestion : "सत्य"
-and: "और" # ✅
-as: "के रूप में" # ✅
-assert: "दावा करना" # ❓ My suggestion : "दावा करना" This one aligns better with the meaning of assert used in Python which is to claim/ give a data type and not "जोर" which would mean force
-async: "अतुल्यकालिक" # ❓ Translation for asynchronous is "अतुल्यकालिक"
-await: "प्रतीक्षा करें" # ✅
-break: "तोड़ना" # ❓ My suggestion : "तोडना" or maybe "समाप्त करना" to better fit the context of ending a loop
-class: "वर्ग" # ✅
-continue: "जारी रखें" # ✅
-def: "परिभाषा करना" # ❓ My suggestion : "परिभाषा करना" since def stands for define
-del: "हटाना" # ❓ My suggestion : "हटाना" or "मिटाना". "डेल" is just the phonetic translation
-elif: "और अगर" # ❓ My suggestion : "अथवा अगर"
-else: "अन्य, अन्यथा" # ❓ My suggestion : "अन्यथा"
-except: "सिवाय" # ✅
-finally: "अंत में" # ✅
-for: "के लिए" # ✅
-from: "से" # ✅
-global:  "विश्वीय" # ❓ My suggestion : "विश्वीय"
-if: "यदि" # ✅
-import: "आयात" # ✅
-in: "में" # ✅
-is: "है" # ✅
-lambda: "लैम्ब्डा" # 🤔 "लैम्ब्डा" is just a phonetic translation
-nonlocal: "गैर स्थानीय" # ❓ My suggestion : "गैर स्थानीय". "नॉनलोकल" is just a phonetic translation of "nonlocal"
-not: "नहीं" # ✅
-or: "या" # ✅
-pass: "पास" # ✅
-raise: "उठाना" # ✅
-return: "प्रतिदान" # ❓ "प्रतिदान"
-try: "प्रयास करना" # ✅ "प्रयास करना"
-while: "जब तक" ❓ Better Alternative: "जब तक" This fits better to the while loop definition, since while follows while(condition). "जब तक" literally translates to "till when"
-with: "साथ" # ✅
-yield: "उपज" # ✅
+False: "असत्य" # ✅ @bhaveshgoyal182
+None: "कुछ नहीं" # ❓ My suggestion : "कुछ नहीं" This seems better in the context of none as a datatype ✅ @bhaveshgoyal182
+True: "सत्य" # ❓ My suggestion : "सत्य" ✅ @bhaveshgoyal182
+and: "और" # ✅  @bhaveshgoyal182
+as: "के रूप में" # ✅ @bhaveshgoyal182
+assert: "दावा करना" # ❓ My suggestion : "दावा करना" This one aligns better with the meaning of assert used in Python which is to claim/ give a data type and not "जोर" which would mean force✅ @bhaveshgoyal182
+async: "अतुल्यकालिक" # ❓ Translation for asynchronous is "अतुल्यकालिक"✅ @bhaveshgoyal182
+await: "प्रतीक्षा करें" # ✅ @bhaveshgoyal182
+break: "समाप्त करना" # ❓ My suggestion : "तोडना" or maybe "समाप्त करना" to better fit the context of ending a loop✅ @bhaveshgoyal182
+class: "वर्ग" # ✅ @bhaveshgoyal182
+continue: "जारी रखें" # ✅ @bhaveshgoyal182
+def: "परिभाषा करना" # ❓ My suggestion : "परिभाषा करना" since def stands for define ✅ @bhaveshgoyal182
+del: "मिटाना" # ❓ My suggestion : "हटाना" or "मिटाना". "डेल" is just the phonetic translation ✅ @bhaveshgoyal182
+elif: "अथवा अगर" # ❓ My suggestion : "अथवा अगर"✅ @bhaveshgoyal182
+else: "अन्यथा" # ❓ My suggestion : "अन्यथा" ✅ @bhaveshgoyal182
+except: "सिवाय" # ✅ @bhaveshgoyal182
+finally: "अंत में" # ✅ @bhaveshgoyal182
+for: "के लिए" # ✅ @bhaveshgoyal182
+from: "से" # ✅ @bhaveshgoyal182
+global:  "विश्वीय" # ❓ My suggestion : "विश्वीय"✅ @bhaveshgoyal182
+if: "यदि" # ✅ @bhaveshgoyal182
+import: "आयात" # ✅ @bhaveshgoyal182
+in: "में" # ✅ @bhaveshgoyal182
+is: "है" # ✅ @bhaveshgoyal182
+lambda: "लैम्ब्डा" # 🤔 "लैम्ब्डा" is just a phonetic translation 🤔 @bhaveshgoyal182
+nonlocal: "गैर स्थानीय" # ❓ My suggestion : "गैर स्थानीय". "नॉनलोकल" is just a phonetic translation of "nonlocal" 🤔 @bhaveshgoyal182
+not: "नहीं" # ✅ @bhaveshgoyal182
+or: "या" # ✅ @bhaveshgoyal182
+pass: "पास" # ✅ @bhaveshgoyal182
+raise: "उठाना" # ✅ @bhaveshgoyal182
+return: "प्रतिदान" #  "वापसी"  ❓ @bhaveshgoyal182
+try: "प्रयास करना" #  "प्रयास करना" ✅ @bhaveshgoyal182
+while: "जब तक" ❓ Better Alternative: "जब तक" This fits better to the while loop definition, since while follows while(condition). "जब तक" literally translates to "till when" ✅ @bhaveshgoyal182
+with: "साथ" # ✅ @bhaveshgoyal182
+yield: "उपज" # ✅ @bhaveshgoyal182
 
 # << Built-In Functions >>
 
-abs: "परम, पूर्ण" # ❓ "परम" I think "पूर्ण" fits better for abs, which returns absolute value. @sshiv5768 "पूर्ण" ✅
-all: "सब" # ❓ "सब" I am agree with "सब", because it sounds perfect hindi translation. @sshiv5768 "सब" ✅
-any: "कोई भी" # ✅
-ascii: "ascii" # ✅
-bin: "दोहरा" # ❓ "दोहरा" maybe because "bin" refers to binary or just use "bin". @sshiv5768 "दोहरा" ✅
-bool: "बूल" # ❓ Correct Spelling "बूल".@sshiv5768 "बूल" ✅
-breakpoint: "विराम बिंदु" # ❓ "विराम बिंदु" @sshiv5768 "विराम बिंदु" ✅
-bytearray: "बाइट अरे" # ❓ "बाइट अरे" or maybe "बाइट सरणी" @sshiv5768 "बाइट अरे" ✅
-bytes: "बाइट्स" # ✅
-callable: "कॉल करने योग्य" # ✅
-chr: "चर" # ❓ "अक्षर" I believe data types should be kept as it is just change them phonetically if needed @sshiv5768 "चर" ✅
-classmethod: "वर्ग विधि" # ❓ "वर्ग विधि" @sshiv5768 "वर्ग विधि" ✅
-compile: "संकलन" # ✅
-complex: "पेचीदा" # ❓ "पेचीदा" @sshiv5768 "पेचीदा" ✅
-delattr: "विशेषता हटाना" # ❓ "गुण हटाना" or "विशेषता हटाना" @sshiv5768 "विशेषता हटाना" ✅
-dict: "कोश" # 🤔 maybe "कोश" I think "कोश" suits better for dict @sshiv5768 "कोश" ✅
-dir: "निर्देशिका" # 🤔 maybe "निर्देशिका" @sshiv5768 "निर्देशिका" ✅
-divmod: "विभाजन शेष" # 🤔 maybe "विभाजन शेष" @sshiv5768 "विभाजन शेष" ✅
-enumerate: "गणना करें" # ❓ "गणना करना" @sshiv5768 "गणना करना" ✅
-eval: "मूल्यांकन करना" # ❓ "मूल्यांकन करना" @sshiv5768 "मूल्यांकन करना" ✅
-exec: "निष्पादित करना" # ❓ "निष्पादित करना" @sshiv5768  "निष्पादित करना" ✅
-filter: "फ़िल्टर" # ✅
-float: "फ्लोट" # ✅ I believe data types should be kept as it is just change them phonetically if needed
-format: "प्रारूप" # ✅
-frozenset: "फ्रोज़ेनसेट" # ❓ "जमा हुआ समूह" or "स्तम्भित समूह" frozenset is an abstract data-type so that I think it should be remail original or phoneticly translated @sshiv5768 "फ्रोज़ेनसेट" ✅ 
-getattr: "गुण प्राप्त करना" # ❓ "गुण लेना" or "गुण प्राप्त करना" or "विशेषता प्राप्त करना" @sshiv5768 "गुण प्राप्त करना" ✅
-globals: "वैश्विक" # ❓ "वैश्विक" or "विश्वीय"
-hasattr: "विशेषता होना" # ❓ "गुण होना" or "विशेषता होना"
+abs: "परम, पूर्ण" # ❓ "परम" I think "पूर्ण" fits better for abs, which returns absolute value. @sshiv5768 "पूर्ण" ✅ @bhaveshgoyal182
+all: "सब" # ❓ "सब" I am agree with "सब", because it sounds perfect hindi translation. @sshiv5768 "सब" ✅ @bhaveshgoyal182
+any: "कोई भी" # ✅ @bhaveshgoyal182
+ascii: "ascii" # ✅ @bhaveshgoyal182
+bin: "दोहरा" # ❓ "दोहरा" maybe because "bin" refers to binary or just use "bin". @sshiv5768 "दोहरा" ✅ @bhaveshgoyal182
+bool: "बूल" # ❓ Correct Spelling "बूल".@sshiv5768 "बूल" ✅ @bhaveshgoyal182
+breakpoint: "विराम बिंदु" # ❓ "विराम बिंदु" @sshiv5768 "विराम बिंदु" ✅ @bhaveshgoyal182
+bytearray: "बाइट अरे" # ❓ "बाइट अरे" or maybe "बाइट सरणी" @sshiv5768 "बाइट अरे" ✅ @bhaveshgoyal182
+bytes: "बाइट्स" # ✅ @bhaveshgoyal182
+callable: "कॉल करने योग्य" # ✅ @bhaveshgoyal182
+chr: "चर" # ❓ "अक्षर" I believe data types should be kept as it is just change them phonetically if needed @sshiv5768 "चर" 🤔 @bhaveshgoyal182
+classmethod: "वर्ग विधि" # ❓ "वर्ग विधि" @sshiv5768 "वर्ग विधि" ✅ @bhaveshgoyal182
+compile: "संकलन" # ✅ @bhaveshgoyal182
+complex: "पेचीदा" # ❓ "पेचीदा" @sshiv5768 "पेचीदा" ✅ @bhaveshgoyal182
+delattr: "विशेषता हटाना" # ❓ "गुण हटाना" or "विशेषता हटाना" @sshiv5768 "विशेषता हटाना" ✅ @bhaveshgoyal182
+dict: "कोश" # 🤔 maybe "कोश" I think "कोश" suits better for dict @sshiv5768 "कोश" ✅ @bhaveshgoyal182
+dir: "निर्देशिका" # 🤔 maybe "निर्देशिका" @sshiv5768 "निर्देशिका" ✅ @bhaveshgoyal182
+divmod: "विभाजन शेष" # 🤔 maybe "विभाजन शेष" @sshiv5768 "विभाजन शेष" ✅ @bhaveshgoyal182
+enumerate: "गणना करें" # ❓ "गणना करना" @sshiv5768 "गणना करना" ✅ @bhaveshgoyal182
+eval: "मूल्यांकन करना" # ❓ "मूल्यांकन करना" @sshiv5768 "मूल्यांकन करना" ✅ @bhaveshgoyal182
+exec: "निष्पादित करना" # ❓ "निष्पादित करना" @sshiv5768  "निष्पादित करना" ✅ @bhaveshgoyal182
+filter: "फ़िल्टर" # ✅ @bhaveshgoyal182
+float: "फ्लोट" # ✅ I believe data types should be kept as it is just change them phonetically if needed 🤔@bhaveshgoyal182
+format: "प्रारूप" # ✅ @bhaveshgoyal182
+frozenset: "फ्रोज़ेनसेट" # ❓ @bhaveshgoyal182 
+getattr: "गुण प्राप्त करना" # ✅@bhaveshgoyal182
+globals: "वैश्विक" # ✅@bhaveshgoyal182
+hasattr: "विशेषता होना" # ✅@bhaveshgoyal182
 hash: "हैश" # ✅ or just use English versions
 help: "मदद" # ✅ or just use English versions
 hex: "हेक्स" # ✅ or just use English versions
 id: "आईडी" # ✅ or just use English versions
-input: "आगत" # 🤔 maybe "आगत"
-int: "पूर्णांक" # ✅
-isinstance: "उदाहरण है" # ❓ "उदाहरण है"
-issubclass: "उपवर्ग है" # ❓ "उपवर्ग है"
-iter: "पुनरावृति करना" # 🤔 "पुनरावृति करना" or "दुहराना" or "बार-बार करना"
-len: "लंबाई" # ❓ "लंबाई" or "विस्तार" is more appropriate in the context of "len" as used in Python
+input: "आगत" # ✅@bhaveshgoyal182
+int: "पूर्णांक" # ✅@bhaveshgoyal182
+isinstance: "उदाहरण है" # ✅@bhaveshgoyal182
+issubclass: "उपवर्ग है" # ✅@bhaveshgoyal182
+iter: "पुनरावृति करना" # 🤔 @bhaveshgoyal182 "बार-बार करना"
+len: "लंबाई" # ✅@bhaveshgoyal182
 list: "सूची" # ✅
-locals: "स्थानीय" # ✅
-map: "तलरूप-मिति करना" # ❓ "तलरूप-मिति करना" if you consider "map" in the verb form otherwise "नक्शा" seems correct
-max: "अधिकतम" # ✅
-memoryview: "स्मृति दर्शन" # ❓ "स्मृति दर्शन"
-min: "न्यूनतम" # ✅
-next: "अगला" # ✅
-object: "वस्तु" # ❓ "वस्तु"
-oct: "अष्ट" # ✅ or just use English versions
-open: "खुला" # ✅
-ord: "ऑर्ड" # ❓ "ऑर्ड"
-pow: "घातांक" # ❓ "घातांक"
-print: "प्रिंट,छापन "❓ "छापना" but "print" is used in everyday speak as well, not sure whether translation is required here
-property: "लक्षण, विशेषता" ❓ "स्वभाव" or maybe "लक्षण" or "विशेषता"
-range: "सीमा" # ❓ "सीमा"
-repr: "repr" # 🤔
-reversed: "औंधा" # ✅
-round: "गोल" # ✅
-set: "समूह" # ✅
-setattr: "विशेषता लगाना" # ❓ "गुण लगाना" or "गुण स्थापित करना" or "विशेषता लगाना" or "विशेषता स्थापित करना"
-slice: "टुकड़ा" # ✅
-sorted: "छाँटे गए" # ✅
-staticmethod: "स्थिर विधि # ❓ "स्थिर विधि"
-str: "str" # ✅ I believe data types should be kept as it is just change them phonetically if needed
-sum: "जोड़" # ❓ "जोड" or "योगफल"
-super: "उत्तम" # 🤔 "बढ़िया" or "उत्तम" is the correct translation but not sure if it should be used since the use of "super" keyword does not relate to its literal meaning. So keep it as "super" only
-tuple: "टपल" # ❓ Phonetic - "टपल"
-type: "प्रकार" # ✅
-vars: "चर" # ❓ "जिसका" is wrong. Variables are called as "चर" in Hindi Mathematics. This fits the usage of "vars" since it returns a dictionary of variables in a class instance. So "चर" should be used.
-zip: "ज़िप" # 🤔
-__import__: "__आयात__" # ✅
+locals: "स्थानीय" # ✅@bhaveshgoyal182
+map: "तलरूप-मिति करना" # ✅@bhaveshgoyal182
+max: "अधिकतम" # ✅@bhaveshgoyal182
+memoryview: "स्मृति दर्शन" # ✅@bhaveshgoyal182
+min: "न्यूनतम" # ✅@bhaveshgoyal182
+next: "अगला" # ✅@bhaveshgoyal182
+object: "वस्तु" # ✅@bhaveshgoyal182
+oct: "अष्ट" # ✅ or just use English versions ✅@bhaveshgoyal182
+open: "खुला" # ✅ ✅@bhaveshgoyal182
+ord: "ऑर्ड" # ❓ "ऑर्ड" ✅@bhaveshgoyal182
+pow: "घातांक" # ❓ "घातांक" ✅@bhaveshgoyal182
+print: "प्रिंट,छापन "❓ "छापना" but "print" is used in everyday speak as well, not sure whether translation is required here ❓ @bhaveshgoyal182 "छापना"
+property: "लक्षण, विशेषता" ❓ "स्वभाव" or maybe "लक्षण" or "विशेषता" ✅@bhaveshgoyal182 
+range: "सीमा" # ✅@bhaveshgoyal182 
+repr: "repr" # 🤔@bhaveshgoyal182 
+reversed: "औंधा" # ✅@bhaveshgoyal182 
+round: "गोल" # ❓ @bhaveshgoyal182 "शून्यान्त करना"
+set: "समूह" # ✅@bhaveshgoyal182
+setattr: "विशेषता लगाना" # ❓ "गुण लगाना" or "गुण स्थापित करना" or "विशेषता लगाना" or "विशेषता स्थापित करना" ✅@bhaveshgoyal182
+slice: "टुकड़ा" # ✅@bhaveshgoyal182
+sorted: "छाँटे गए" # ✅@bhaveshgoyal182
+staticmethod: "स्थिर विधि # ❓ "स्थिर विधि" ✅@bhaveshgoyal182
+str: "str" # ✅ I believe data types should be kept as it is just change them phonetically if needed ✅@bhaveshgoyal182
+sum: "जयोगफल" # "योगफल" ✅@bhaveshgoyal182
+super: "उत्तम" # 🤔 "बढ़िया" or "उत्तम" is the correct translation but not sure if it should be used since the use of "super" keyword does not relate to its literal meaning. So keep it as "super" only 🤔@bhaveshgoyal182
+tuple: "टपल" # ❓ Phonetic - "टपल" 🤔@bhaveshgoyal182
+type: "प्रकार" #✅ @bhaveshgoyal182
+vars: "चर" # ❓ "जिसका" is wrong. Variables are called as "चर" in Hindi Mathematics. This fits the usage of "vars" since it returns a dictionary of variables in a class instance. So "चर" should be used.🤔@bhaveshgoyal182 �
+zip: "ज़िप" #✅ @bhaveshgoyal182
+__import__: "__आयात__" # ✅ @bhaveshgoyal182
 
 # << Error Messages >>
 
